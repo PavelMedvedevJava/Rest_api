@@ -4,16 +4,18 @@
         "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
 <hibernate-configuration>
     <session-factory>
-        <property name="connection.url">jdbc:mysql://localhost:3307/mydb?useUnicode=true&amp;serverTimezone=UTC</property>
+        <property name="connection.url">jdbc:mysql://xphzc7z4lckriuzz:uahbzitj2k9qnw9t@ryfqldzbliwmq6g5.chr7pe7iynqr.eu-west-1.rds.amazonaws.com:3306/y4rf2w8cnkzpk4xs
+
+        </property>
         <property name="connection.driver_class">com.mysql.cj.jdbc.Driver</property>
         <property name="hibernate.dialect">
             org.hibernate.dialect.MySQLDialect
         </property>
         <property name="hibernate.connection.username">
-            root
+            xphzc7z4lckriuzz
         </property>
         <property name="hibernate.connection.password">
-            root
+            uahbzitj2k9qnw9t
         </property>
 
         <property name="show_sql">true</property>
