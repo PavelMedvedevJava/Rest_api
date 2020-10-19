@@ -1,2 +1,1 @@
-mvn tomcat7:run
-mvn liquibase: start
+web: java $JAVA_OPTS -jar target/dependency/webapp-runner.jar --port $PORT target/*.war
