@@ -3,3 +3,5 @@
 Simple Java Rest API 
 
 Java 8; Hibernate ; Jackson; liquibase
+
+deploy - Heroku
