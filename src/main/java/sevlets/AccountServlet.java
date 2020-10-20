@@ -13,7 +13,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.List;
 
-@WebServlet(name = "AccountServlet", urlPatterns = {"/accounts"})
+@WebServlet(name = "AccountServlet", urlPatterns = {"api/v1/accounts"})
 public class AccountServlet extends HttpServlet {
     private Account account;
     private List<Account> accountList;
