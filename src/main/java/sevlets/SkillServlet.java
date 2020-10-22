@@ -13,7 +13,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.List;
 
-@WebServlet(name = "SkillServlet", urlPatterns = {"api/v1/Skills"})
+@WebServlet(name = "SkillServlet", urlPatterns = {"/api/v1/Skills"})
 public class SkillServlet extends HttpServlet {
     private SkillRepositoryImplHibernate skillRepositoryImplHibernate = new SkillRepositoryImplHibernate();
     private Skill skill;

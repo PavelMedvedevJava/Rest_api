@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.List;
 
-@WebServlet(name = "Developers",urlPatterns = {"api/v1/developers"})
+@WebServlet(name = "Developers",urlPatterns = {"/api/v1/developers"})
 public class DeveloperServlet extends HttpServlet {
     private Developer developer;
     private List<Developer> developerList;
