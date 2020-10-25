@@ -7,7 +7,7 @@ import java.util.Objects;
 import java.util.Set;
 
 @Entity
-@Table(name = "developers", schema = "mydb")
+@Table(name = "developers", schema = "public")
 public class Developer implements Serializable {
 
     @Id

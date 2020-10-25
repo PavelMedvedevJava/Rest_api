@@ -5,7 +5,7 @@ import java.io.Serializable;
 import java.util.Objects;
 
 @Entity
-@Table(name="skills",schema = "mydb")
+@Table(name="skills",schema = "public")
 public class Skill implements Serializable {
     @Column(name = "skill")
     private String skill;
