@@ -4,18 +4,17 @@
         "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
 <hibernate-configuration>
     <session-factory>
-        <property name="connection.url">jdbc:mysql://xphzc7z4lckriuzz:uahbzitj2k9qnw9t@ryfqldzbliwmq6g5.chr7pe7iynqr.eu-west-1.rds.amazonaws.com:3306/y4rf2w8cnkzpk4xs
-
+        <property name="connection.url">jdbc:postgresql://ec2-54-247-94-127.eu-west-1.compute.amazonaws.com:5432/d6a2nucfbc6urv
         </property>
         <property name="connection.driver_class">com.mysql.cj.jdbc.Driver</property>
         <property name="hibernate.dialect">
             org.hibernate.dialect.MySQLDialect
         </property>
         <property name="hibernate.connection.username">
-            xphzc7z4lckriuzz
+            mrexwuwsonhmcj
         </property>
         <property name="hibernate.connection.password">
-            uahbzitj2k9qnw9t
+            3a06ad6c9f59fe98278ac594af29cddbba9c073e626d851da5d2ca774e9b5e1f
         </property>
 
         <property name="show_sql">true</property>
