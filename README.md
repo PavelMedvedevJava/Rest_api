@@ -2,6 +2,6 @@
 
 Simple Java Rest API 
 
-Java 8; Hibernate ; Jackson; liquibase
+Java 8; Hibernate ; Jackson; liquibase ; PostgresSQL
 
 deploy - Heroku
